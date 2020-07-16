@@ -8,14 +8,14 @@ protocol Car {
 }
 
 extension Car {
-    func Windows() {
+    func windows() {
         if openWindows == true {
             print("Окна открыты")
         } else {
             print("Окна закрыты")
         }
     }
-    func Engine(){
+    func engine(){
         if startedEngine == true {
             print("Машина заведена")
         } else {
@@ -56,12 +56,10 @@ class TrunkCar: Car {
 }
 extension TrunkCar: CustomStringConvertible {
     var description: String {
-        return "(\(trunkVolume))"
+        return "объем: \(trunkVolume)"
     }
 }
 var car1 = SportCar(openWindows: true, startedEngine: true, maxSpeedPerSecond: 280)
 print(car1.maxSpeedPerSecond)
 var car2 = TrunkCar(openWindows: false, startedEngine: true, trunkVolume: 20)
-print(car2.Engine())
-
-
+print(car2)

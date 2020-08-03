@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "Enter login"; ObjectID = "2Kq-wX-gfw"; */
+"2Kq-wX-gfw.placeholder" = "Enter login";
+
+/* Class = "UITextField"; placeholder = "Enter password"; ObjectID = "4VP-qv-e1n"; */
+"4VP-qv-e1n.placeholder" = "Enter password";
+
+/* Class = "UILabel"; text = "Weather"; ObjectID = "9Jc-YJ-9e1"; */
+"9Jc-YJ-9e1.text" = "Weather";
+
+/* Class = "UIButton"; normalTitle = "Regisration"; ObjectID = "EqT-ip-xnY"; */
+"EqT-ip-xnY.normalTitle" = "Regisration";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "Pxf-e6-NvQ"; */
+"Pxf-e6-NvQ.text" = "Login";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "RKG-jV-98q"; */
+"RKG-jV-98q.text" = "Password";
